@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: only light;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  @apply transition-colors duration-200;
+}
+
+/* Custom utilities */
+.section-title {
+  @apply text-sm uppercase tracking-[0.4em] text-blush-500 font-semibold;
+}
